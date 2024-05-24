@@ -14,8 +14,8 @@ class Twilio extends BaseConfig
     public function __construct()
     {
         parent::__construct();
-
-        $this->account_sid = getenv('TWILIO_ACCOUNT_SID');
-        $this->auth_token = getenv('TWILIO_AUTH_TOKEN');
+      // uncomment this part 
+        // $this->account_sid = getenv('TWILIO_ACCOUNT_SID');
+        // $this->auth_token = getenv('TWILIO_AUTH_TOKEN');
     }
 }
